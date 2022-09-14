@@ -1,11 +1,11 @@
 import Text4Lom from '../assets/data/Text4Lom'
-import fourLom1 from '../assets/images/4-LOM/4lom_4.jpg'
+import fourLom4 from '../assets/images/4-LOM/4lom_4.jpg'
 import fourLom3 from '../assets/images/4-LOM/4lom_3.jpg'
 import fourLom7 from '../assets/images/4-LOM/4lom_7.jpg'
 import mistHunter from '../assets/images/Starships/MistHunter.jpg'
 
 function FourLOM() {
-  const HUNTER = [fourLom1, fourLom3, fourLom7]
+  const HUNTER = [fourLom4, fourLom3, fourLom7]
 
   return (
     <>
