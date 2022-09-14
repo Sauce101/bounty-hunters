@@ -26,7 +26,7 @@ function NavNew() {
           to="/landing"
           aria-current="page"
         >
-          BOUNTY HUNTER
+          BOUNTY HUNTERS
         </NavLink>
         <button
           data-collapse-toggle="navbar-default"

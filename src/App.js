@@ -19,7 +19,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index path="/" element={<Home />} />
         <Route element={<Layout />}>
           <Route path="Bossk" element={<Bossk />} />
           <Route path="BobaFett" element={<BobaFett />} />

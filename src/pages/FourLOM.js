@@ -16,11 +16,10 @@ function FourLOM() {
         </h2>
         <div className="flex space-x-8 mb-4">
           {HUNTER.map((pic) => (
-            <div>
+            <div key={`${pic}`}>
               <img
-                src={`${pic}`}
+                src={pic}
                 alt="..."
-                key={`${pic}`}
                 className="shadow-lg rounded h-96 align-middle border-none object-cover"
               />
             </div>

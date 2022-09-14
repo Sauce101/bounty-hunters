@@ -28,7 +28,7 @@ export default function Navbar() {
             className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
             to="/landing"
           >
-            BOUNTY HUNTER
+            BOUNTY HUNTERS
           </NavLink>
           <button
             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none"
@@ -47,10 +47,10 @@ export default function Navbar() {
             {PAGES.map((page) => (
               <NavLink
                 onClick={toggleMenu}
-                to={`/${page.hunter}`}
-                key={`/${page.hunter}`}
-                className="px-3 py-2 flex items-center text-base uppercase font-medium leading-snug text-white"
+                key={page.name}
+                to={page.hunter}
                 style={navLinkStyles}
+                className="px-3 py-2 flex items-center text-base uppercase font-medium leading-snug text-white"
               >
                 {page.name}
               </NavLink>
@@ -61,14 +61,3 @@ export default function Navbar() {
     </nav>
   )
 }
-
-// style={({ isActive }) => {
-//   return {
-//     color: isActive ? 'white' : 'grey',
-//     marginLeft: '12px',
-//     textDecoration: isActive ? 'underline' : 'none',
-//     textUnderlineOffset: '3px',
-//     fontSize: '1em',
-//     textTransform: 'uppercase',
-//   }
-// }}
