@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import HomeNavbar from '../componets/HomeNavbar'
 import Footer from '../componets/Footer'
-import wideScope from '../assets/images/Home/wideScape.jpg'
+import wideScape from '../assets/images/Home/wideScape.jpg'
 import fourLom3 from '../assets/images/4-LOM/4lom_3.jpg'
 import bossk3 from '../assets/images/Bossk/bossk_3.jpg'
 import boba3 from '../assets/images/BobaFett/bobafett_3.jpg'
@@ -24,7 +24,7 @@ function Home() {
       <HomeNavbar />
       {/* Landscape */}
       <div className="portrait:hidden container mx-auto mt-auto">
-        <img src={`${wideScope}`} alt="..." className="object-contain" />
+        <img src={`${wideScape}`} alt="..." className="object-contain" />
       </div>
       {/* Portrait */}
       <div className="landscape:hidden container mx-auto mt-auto">
