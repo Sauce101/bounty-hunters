@@ -20,7 +20,7 @@ export default function HomeNavbar() {
     <nav className="relative flex flex-col px-2 py-3 bg-bhgray sticky top-0">
       <div className="container mx-auto flex flex-row list-none justify-around landscape:hidden">
         <h2 className="text-lg font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
-          Bounty Hunter
+          Bounty Hunters
         </h2>
       </div>
       <div className="portrait:hidden container mx-auto flex flex-row list-none justify-around">
