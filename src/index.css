@@ -10,7 +10,8 @@
 @font-face {
   font-family: 'Exo';
   font-style: normal;
-  font-weight: 100 900;
+  /* font-weight: 100 900; */
+  font-weight: normal;
   font-display: fallback;
   src: url('../src/assets/fonts/Exo/Exo-VariableFont_wght.woff2')
     format('woff2');
