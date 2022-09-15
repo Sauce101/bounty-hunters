@@ -24,7 +24,7 @@ function Home() {
       <HomeNavbar />
       {/* Landscape */}
       <div className="portrait:hidden container mx-auto mt-auto">
-        <img src={`${wideScape}`} alt="..." className="object-contain" />
+        <img src={`${wideScape}`} alt="..." className="object-auto" />
       </div>
       {/* Portrait */}
       <div className="landscape:hidden container mx-auto mt-auto">

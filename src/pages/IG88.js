@@ -31,7 +31,7 @@ function IG88() {
       <div className="landscape:hidden m-2 container mx-auto">
         <div className="flex container mx-auto">
           <h2 className="text-5xl font-normal leading-normal mt-0 mb-2 text-slate-800 mx-auto">
-            IG-88B
+            IG-88
           </h2>
         </div>
         <div className="w-full sm:w-4/12 px-4 py-4 mx-auto">

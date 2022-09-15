@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom'
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
 
-  const toggleMenu = () => {
-    setNavbarOpen(!navbarOpen)
+  const closeMenu = () => {
+    setNavbarOpen(false)
   }
   const navLinkStyles = ({ isActive }) => ({
     fontWeight: isActive ? 'bold' : '',
@@ -21,7 +21,7 @@ export default function Navbar() {
     { hunter: 'Dengar', name: 'Dengar' },
   ]
   return (
-    <nav className="relative flex flex-col items-center justify-between px-2 py-3 bg-bhgray sticky top-0">
+    <nav className="relative flex flex-col items-center justify-between px-2 py-3 bg-slate-800 sticky top-0">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between md:w-auto lg:static md:block lg:justify-start">
           <NavLink
@@ -35,7 +35,20 @@ export default function Navbar() {
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
-            <i className="fas fa-bars" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.8}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
           </button>
         </div>
         <div
@@ -46,7 +59,7 @@ export default function Navbar() {
           <div className="flex flex-col md:flex-row list-none md:ml-auto">
             {PAGES.map((page) => (
               <NavLink
-                onClick={toggleMenu}
+                onClick={closeMenu}
                 key={page.name}
                 to={page.hunter}
                 style={navLinkStyles}

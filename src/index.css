@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: 'Exo';
-  src: url('../src/assets/fonts/Exo/Exo-Regular.ttf');
-} */
-
 @font-face {
   font-family: 'Exo';
   font-style: normal;
@@ -27,9 +22,4 @@ body {
 
 /* nav a.active {
   text-decoration: underline;
-} */
-
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 } */

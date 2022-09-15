@@ -17,7 +17,7 @@ export default function HomeNavbar() {
     { hunter: 'Dengar', name: 'Dengar' },
   ]
   return (
-    <nav className="relative flex flex-col px-2 py-3 bg-bhgray sticky top-0">
+    <nav className="relative flex flex-col px-2 py-3 bg-slate-800 sticky top-0">
       <div className="container mx-auto flex flex-row list-none justify-around landscape:hidden">
         <h2 className="text-lg font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
           Bounty Hunters
@@ -29,7 +29,7 @@ export default function HomeNavbar() {
             onClick={toggleMenu}
             to={`/${page.hunter}`}
             key={page.hunter}
-            className="px-3 py-2 text-sm lg:text-lg uppercase font-medium text-white hover:opacity-75"
+            className="px-3 py-1 text-sm lg:text-lg uppercase font-medium text-white hover:opacity-75"
           >
             {page.name}
           </NavLink>
