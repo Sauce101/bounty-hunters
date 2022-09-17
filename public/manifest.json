@@ -1,8 +1,8 @@
 {
   "name": "Bounty Hunters",
   "short_name": "Bounty Hunters",
-  "theme_color": "#7596a5",
-  "background_color": "#7596a5",
+  "theme_color": "#1E293B",
+  "background_color": "#475569",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",

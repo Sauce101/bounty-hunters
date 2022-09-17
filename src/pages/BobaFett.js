@@ -20,7 +20,7 @@ function BobaFett() {
               <img
                 src={pic}
                 alt="..."
-                className="shadow-lg rounded h-96 align-middle border-none object-cover"
+                className="shadow-lg rounded h-80 align-middle border-none object-cover"
               />
             </div>
           ))}

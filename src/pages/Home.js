@@ -20,7 +20,7 @@ function Home() {
   ]
 
   return (
-    <div className="w-full flex flex-col min-h-screen bg-bhbg">
+    <div className="w-full flex flex-col min-h-screen bg-slate-500">
       <HomeNavbar />
       {/* Landscape */}
       <div className="portrait:hidden container mx-auto mt-auto">
