@@ -1,7 +1,7 @@
 import TextBoba from '../assets/data/TextBoba'
-import boba10 from '../assets/images/BobaFett/bobafett_10.jpg'
-import boba3 from '../assets/images/BobaFett/bobafett_3.jpg'
-import boba5 from '../assets/images/BobaFett/bobafett_5.jpg'
+import boba10 from '../assets/images/BobaFett/bobafett_10.webp'
+import boba3 from '../assets/images/BobaFett/bobafett_3.webp'
+import boba5 from '../assets/images/BobaFett/bobafett_5.webp'
 import slaveI from '../assets/images/Starships/SlaveI_egvv.webp'
 
 function BobaFett() {

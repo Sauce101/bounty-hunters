@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom'
 import HomeNavbar from '../componets/HomeNavbar'
 import Footer from '../componets/Footer'
-import wideScape from '../assets/images/Home/wideScape.webp'
-import fourLom3 from '../assets/images/4-LOM/4lom_3.jpg'
-import bossk3 from '../assets/images/Bossk/bossk_3.jpg'
-import boba3 from '../assets/images/BobaFett/bobafett_3.jpg'
+// import wideScape from '../assets/images/Home/wideScape.webp'
+import fourLom3 from '../assets/images/4-LOM/4lom_3.webp'
+import bossk3 from '../assets/images/Bossk/bossk_3.webp'
+import boba3 from '../assets/images/BobaFett/bobafett_3.webp'
 import ig3 from '../assets/images/IG-88/ssig88_3.jpg'
 import zuck3 from '../assets/images/Zuckuss/zuck_3.jpg'
 import dengar5 from '../assets/images/Dengar/dengar_5.jpg'
@@ -24,7 +24,8 @@ function Home() {
       <HomeNavbar />
       {/* Landscape */}
       <div className="portrait:hidden container mx-auto mt-auto">
-        <img src={`${wideScape}`} alt="..." className="object-auto" />
+        <div className="bg-bounty bg-contain bg-center bg-no-repeat h-96" />
+        {/* <img src={`${wideScape}`} alt="..." className="object-auto" /> */}
       </div>
       {/* Portrait */}
       <div className="landscape:hidden container mx-auto mt-auto">

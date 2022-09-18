@@ -1,7 +1,7 @@
 import TextBossk from '../assets/data/TextBossk'
-import bossk1 from '../assets/images/Bossk/bossk_1.jpg'
-import bossk3 from '../assets/images/Bossk/bossk_3.jpg'
-import bossk7 from '../assets/images/Bossk/bossk_7.jpg'
+import bossk1 from '../assets/images/Bossk/bossk_1.webp'
+import bossk3 from '../assets/images/Bossk/bossk_3.webp'
+import bossk7 from '../assets/images/Bossk/bossk_7.webp'
 import houndstooth from '../assets/images/Starships/Houndstooth_schem.webp'
 
 function Bossk() {
