@@ -1,8 +1,8 @@
 import TextZuckuss from '../assets/data/TextZuckuss'
-import zuck1 from '../assets/images/Zuckuss/zuck_1.jpg'
-import zuck3 from '../assets/images/Zuckuss/zuck_3.jpg'
-import zuck8 from '../assets/images/Zuckuss/zuck_8.jpg'
-import mistHunter from '../assets/images/Starships/MistHunter.jpg'
+import zuck1 from '../assets/images/Zuckuss/zuck_1.webp'
+import zuck3 from '../assets/images/Zuckuss/zuck_3.webp'
+import zuck8 from '../assets/images/Zuckuss/zuck_8.webp'
+import mistHunter from '../assets/images/Starships/MistHunter.webp'
 
 function Zuckuss() {
   const HUNTER = [zuck1, zuck3, zuck8]

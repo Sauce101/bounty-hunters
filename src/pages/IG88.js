@@ -1,7 +1,7 @@
 import TextIG88 from '../assets/data/TextIG88'
-import ig9 from '../assets/images/IG-88/ssig88_9.jpg'
-import ig3 from '../assets/images/IG-88/ssig88_3.jpg'
-import ig5 from '../assets/images/IG-88/ssig88_5.jpg'
+import ig9 from '../assets/images/IG-88/ssig88_9.webp'
+import ig3 from '../assets/images/IG-88/ssig88_3.webp'
+import ig5 from '../assets/images/IG-88/ssig88_5.webp'
 import ig2000 from '../assets/images/Starships/IG2000_schem.webp'
 
 function IG88() {

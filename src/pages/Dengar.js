@@ -1,7 +1,7 @@
 import TextDengar from '../assets/data/TextDengar'
-import dengar12 from '../assets/images/Dengar/dengar_12.jpg'
-import dengar5 from '../assets/images/Dengar/dengar_5.jpg'
-import dengar9 from '../assets/images/Dengar/dengar_9.jpg'
+import dengar12 from '../assets/images/Dengar/dengar_12.webp'
+import dengar5 from '../assets/images/Dengar/dengar_5.webp'
+import dengar9 from '../assets/images/Dengar/dengar_9.webp'
 import jumpmaster5000 from '../assets/images/Starships/jumpmaster_5000.jpg'
 
 function Dengar() {
