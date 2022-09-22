@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import HomeNavbar from '../componets/HomeNavbar'
 import Footer from '../componets/Footer'
-// import wideScape from '../assets/images/Home/wideScapeHalf.webp'
 import fourLom3 from '../assets/images/4-LOM/4lom_3.webp'
 import bossk3 from '../assets/images/Bossk/bossk_3.webp'
 import boba3 from '../assets/images/BobaFett/bobafett_3.webp'
@@ -36,16 +35,15 @@ function Home() {
           ))}
         </div>
       </div>
-      {/* <img src={`${wideScape}`} alt="..." /> */}
       {/* Portrait */}
-      <div className="landscape:hidden container mx-auto mt-auto">
+      <div className="landscape:hidden mx-auto mt-auto">
         <div className="grid grid-rows-3 grid-cols-2 gap-4 justify-items-center px-4 py-4">
           {PAGES.map((page) => (
             <NavLink to={`${page.hunter}`} key={`${page.hunter}`}>
               <img
                 src={`${page.imgSrc}`}
                 alt="..."
-                className="shadow-lg rounded h-40 w-40 md:h-64 md:w-64 border-none object-cover"
+                className="shadow-lg rounded h-40 w-40 sm:h-64 sm:w-64 md:h-80 md:w-80 border-none object-cover"
               />
             </NavLink>
           ))}

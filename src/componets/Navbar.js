@@ -21,8 +21,8 @@ export default function Navbar() {
     { hunter: 'Dengar', name: 'Dengar' },
   ]
   return (
-    <nav className="relative flex flex-col items-center justify-between px-2 py-3 bg-slate-800 sticky top-0">
-      <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+    <nav className="relative px-2 py-3 bg-slate-800 sticky top-0">
+      <div className="px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between md:w-auto lg:static md:block lg:justify-start">
           <NavLink
             className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
@@ -56,14 +56,14 @@ export default function Navbar() {
             ${navbarOpen ? 'flex' : 'hidden'}`}
           id="example-navbar-danger"
         >
-          <div className="flex flex-col md:flex-row list-none md:ml-auto">
+          <div className="flex flex-col md:flex-row md:ml-auto">
             {PAGES.map((page) => (
               <NavLink
                 onClick={closeMenu}
                 key={page.name}
                 to={page.hunter}
                 style={navLinkStyles}
-                className="px-3 py-2 flex items-center text-base uppercase font-medium leading-snug text-white"
+                className="px-3 py-2 items-center text-base font-medium leading-snug text-white"
               >
                 {page.name}
               </NavLink>

@@ -20,7 +20,7 @@ function Zuckuss() {
               <img
                 src={pic}
                 alt="..."
-                className="shadow-lg rounded h-80 align-middle border-none object-cover"
+                className="shadow-lg rounded h-40 md:h-80 align-middle border-none object-cover"
               />
             </div>
           ))}
