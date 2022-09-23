@@ -26,9 +26,6 @@ module.exports = {
       fontFamily: {
         exo: ['Exo', 'sans-serif'],
       },
-      backgroundImage: {
-        bounty: "url('/src/assets/images/Home/wideScape.webp')",
-      },
     },
   },
   plugins: [],
