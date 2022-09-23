@@ -34,7 +34,7 @@ function IG88() {
             IG-88
           </h2>
         </div>
-        <div className="px-4 py-4 mx-auto">
+        <div className="px-4 py-4">
           <img
             src={ig3}
             alt="..."

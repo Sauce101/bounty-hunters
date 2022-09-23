@@ -33,7 +33,7 @@ function Dengar() {
             Dengar
           </h2>
         </div>
-        <div className="px-4 py-4 mx-auto">
+        <div className="px-4 py-4">
           <img
             src={dengar5}
             alt="..."
