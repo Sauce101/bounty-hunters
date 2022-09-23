@@ -33,11 +33,11 @@ function Dengar() {
             Dengar
           </h2>
         </div>
-        <div className="w-full sm:w-4/12 px-4 py-4 mx-auto mb-4">
+        <div className="px-4 py-4 mx-auto">
           <img
             src={dengar5}
             alt="..."
-            className="shadow-lg rounded h-auto align-middle border-none"
+            className="shadow-lg rounded h-full align-middle border-none mx-auto"
           />
         </div>
         <TextDengar />

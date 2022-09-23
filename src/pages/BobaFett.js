@@ -34,11 +34,11 @@ function BobaFett() {
             Boba Fett
           </h2>
         </div>
-        <div className="w-full sm:w-4/12 px-4 py-4 mx-auto">
+        <div className="px-4 py-4">
           <img
             src={boba3}
             alt="..."
-            className="shadow-lg rounded h-auto align-middle border-none"
+            className="shadow-lg rounded h-full align-middle border-none mx-auto"
           />
         </div>
         <TextBoba />
