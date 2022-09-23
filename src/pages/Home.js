@@ -1,21 +1,21 @@
 import { NavLink } from 'react-router-dom'
 import HomeNavbar from '../componets/HomeNavbar'
 import Footer from '../componets/Footer'
-import fourLom3 from '../assets/images/4-LOM/4lom_3.webp'
-import bossk3 from '../assets/images/Bossk/bossk_3.webp'
-import boba3 from '../assets/images/BobaFett/bobafett_3.webp'
-import ig3 from '../assets/images/IG-88/ssig88_3.webp'
-import zuck3 from '../assets/images/Zuckuss/zuck_3.webp'
 import dengar5 from '../assets/images/Dengar/dengar_5.webp'
+import ig3 from '../assets/images/IG-88/ssig88_3.webp'
+import boba3 from '../assets/images/BobaFett/bobafett_3.webp'
+import bossk3 from '../assets/images/Bossk/bossk_3.webp'
+import fourLom3 from '../assets/images/4-LOM/4lom_3.webp'
+import zuck3 from '../assets/images/Zuckuss/zuck_3.webp'
 
 function Home() {
   const PAGES = [
-    { hunter: 'FourLOM', imgSrc: fourLom3 },
-    { hunter: 'Bossk', imgSrc: bossk3 },
-    { hunter: 'BobaFett', imgSrc: boba3 },
-    { hunter: 'IG88', imgSrc: ig3 },
-    { hunter: 'Zuckuss', imgSrc: zuck3 },
     { hunter: 'Dengar', imgSrc: dengar5 },
+    { hunter: 'IG88', imgSrc: ig3 },
+    { hunter: 'BobaFett', imgSrc: boba3 },
+    { hunter: 'Bossk', imgSrc: bossk3 },
+    { hunter: 'FourLOM', imgSrc: fourLom3 },
+    { hunter: 'Zuckuss', imgSrc: zuck3 },
   ]
 
   return (

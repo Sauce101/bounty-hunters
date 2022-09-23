@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://bountyhunters.netlify.app/">
-    <img alt="Gatsby" src="./src/assets/images/Home/wideScape.jpg" width="320" />
+    <img alt="Bouty Hunters" src="./src/assets/images/Home/bounty-hunters.jpg" width="640" />
   </a>
 </p>
 <h1 align="center">

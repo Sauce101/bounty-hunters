@@ -9,12 +9,12 @@ export default function HomeNavbar() {
   }
 
   const PAGES = [
-    { hunter: 'FourLOM', name: '4-LOM' },
-    { hunter: 'Bossk', name: 'Bossk' },
-    { hunter: 'BobaFett', name: 'Boba Fett' },
-    { hunter: 'IG88', name: 'IG-88' },
-    { hunter: 'Zuckuss', name: 'Zuckuss' },
     { hunter: 'Dengar', name: 'Dengar' },
+    { hunter: 'IG88', name: 'IG-88' },
+    { hunter: 'BobaFett', name: 'Boba Fett' },
+    { hunter: 'Bossk', name: 'Bossk' },
+    { hunter: 'FourLOM', name: '4-LOM' },
+    { hunter: 'Zuckuss', name: 'Zuckuss' },
   ]
   return (
     <nav className="relative flex flex-col px-2 py-3 bg-slate-800 sticky top-0">
