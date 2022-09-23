@@ -21,6 +21,7 @@ module.exports = {
         veryLightGray: 'hsl(0, 0%, 98%)',
         bhgray: '#7596a5',
         bhbg: '#c8dbe9',
+        blackBlack: '#000000',
       },
       fontFamily: {
         exo: ['Exo', 'sans-serif'],
