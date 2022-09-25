@@ -46,7 +46,7 @@ function Bossk() {
       </div>
       {/* Portrait End */}
       {/* Starship */}
-      <div className="container mx-auto flex flex-wrap justify-center">
+      <div className="container mx-auto flex flex-wrap justify-center mb-12">
         <h2 className="text-5xl text-center font-normal leading-normal mt-0 mb-2 text-slate-800 w-screen">
           Houndstooth
         </h2>

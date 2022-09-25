@@ -38,7 +38,7 @@ export default function HomeNavbar() {
         ))}
       </div>
       <div className="portrait:hidden hidden lg:inline-flex container mx-auto flex flex-row justify-center">
-        <h2 className="text-lg font-bold leading-relaxed py-2 whitespace-nowrap uppercase text-white">
+        <h2 className="text-3xl font-bold leading-relaxed py-2 whitespace-nowrap uppercase text-white">
           Bounty Hunters
         </h2>
       </div>

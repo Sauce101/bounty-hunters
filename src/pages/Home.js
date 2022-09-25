@@ -19,10 +19,10 @@ function Home() {
   ]
 
   return (
-    <div className="flex flex-col w-full min-h-screen bg-slate-700">
+    <div className="flex flex-col w-full min-h-screen bg-slate-700 pb-12">
       <HomeNavbar />
       {/* Landscape */}
-      <div className="portrait:hidden mx-auto mt-auto grid grid-rows-1 grid-cols-6 md:grid-rows-2 md:grid-cols-3 justify-items-center gap-4 px-2 py-2 md:gap-8 md:px-8 md:py-8">
+      <div className="portrait:hidden mx-auto my-auto grid grid-rows-1 grid-cols-6 md:grid-rows-2 md:grid-cols-3 justify-items-center gap-4 px-2 py-2 md:gap-8 md:px-8 md:py-8">
         {PAGES.map((page) => (
           <NavLink to={`${page.hunter}`} key={`${page.hunter}`}>
             <img
@@ -34,7 +34,7 @@ function Home() {
         ))}
       </div>
       {/* Portrait */}
-      <div className="landscape:hidden grid grid-rows-3 grid-cols-2 justify-items-center gap-6 px-6 py-6 md:gap-8 md:px-8 md:py-8 mt-auto">
+      <div className="landscape:hidden grid grid-rows-3 grid-cols-2 justify-items-center gap-6 px-6 py-6 md:gap-8 md:px-8 md:py-8 mx-auto my-auto">
         {PAGES.map((page) => (
           <NavLink to={`${page.hunter}`} key={`${page.hunter}`}>
             <img
