@@ -22,32 +22,28 @@ function Home() {
     <div className="flex flex-col w-full min-h-screen bg-slate-700">
       <HomeNavbar />
       {/* Landscape */}
-      <div className="portrait:hidden mx-auto mt-auto">
-        <div className="grid grid-rows-1 grid-cols-6 md:grid-rows-2 md:grid-cols-3 gap-4 justify-items-center px-2 py-2">
-          {PAGES.map((page) => (
-            <NavLink to={`${page.hunter}`} key={`${page.hunter}`}>
-              <img
-                src={`${page.imgSrc}`}
-                alt="..."
-                className="shadow-lg rounded h-32 w-32 lg:h-48 lg:w-48 border-none object-cover"
-              />
-            </NavLink>
-          ))}
-        </div>
+      <div className="portrait:hidden mx-auto mt-auto grid grid-rows-1 grid-cols-6 md:grid-rows-2 md:grid-cols-3 justify-items-center gap-4 px-2 py-2 md:gap-8 md:px-8 md:py-8">
+        {PAGES.map((page) => (
+          <NavLink to={`${page.hunter}`} key={`${page.hunter}`}>
+            <img
+              src={`${page.imgSrc}`}
+              alt="..."
+              className="rounded shadow-md max-w-full h-auto border-none object-cover mx-auto"
+            />
+          </NavLink>
+        ))}
       </div>
       {/* Portrait */}
-      <div className="landscape:hidden mx-auto mt-auto">
-        <div className="grid grid-rows-3 grid-cols-2 gap-4 justify-items-center px-4 py-4">
-          {PAGES.map((page) => (
-            <NavLink to={`${page.hunter}`} key={`${page.hunter}`}>
-              <img
-                src={`${page.imgSrc}`}
-                alt="..."
-                className="shadow-lg rounded h-40 w-40 sm:h-64 sm:w-64 md:h-80 md:w-80 border-none object-cover"
-              />
-            </NavLink>
-          ))}
-        </div>
+      <div className="landscape:hidden grid grid-rows-3 grid-cols-2 justify-items-center gap-6 px-6 py-6 md:gap-8 md:px-8 md:py-8 mt-auto">
+        {PAGES.map((page) => (
+          <NavLink to={`${page.hunter}`} key={`${page.hunter}`}>
+            <img
+              src={`${page.imgSrc}`}
+              alt="..."
+              className="rounded shadow-md max-w-full h-auto border-none object-cover mx-auto"
+            />
+          </NavLink>
+        ))}
       </div>
       <Footer />
     </div>
