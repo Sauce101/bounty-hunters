@@ -18,12 +18,6 @@ export default function HomeNavbar() {
   ]
   return (
     <nav className="relative flex flex-col px-2 py-3 bg-slate-800 sticky top-0">
-      {/* Portrait */}
-      <div className="container mx-auto flex flex-row list-none justify-around landscape:hidden">
-        <h2 className="text-lg font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
-          Bounty Hunters
-        </h2>
-      </div>
       {/* Landscape */}
       <div className="portrait:hidden lg:hidden flex flex-row list-none justify-around">
         {PAGES.map((page) => (
@@ -39,6 +33,12 @@ export default function HomeNavbar() {
       </div>
       <div className="portrait:hidden hidden lg:inline-flex container mx-auto flex flex-row justify-center">
         <h2 className="text-3xl font-bold leading-relaxed py-2 whitespace-nowrap uppercase text-white">
+          Bounty Hunters
+        </h2>
+      </div>
+      {/* Portrait */}
+      <div className="container mx-auto flex flex-row list-none justify-around landscape:hidden">
+        <h2 className="text-lg sm:text-3xl font-bold leading-relaxed inline-block py-2 whitespace-nowrap uppercase text-white">
           Bounty Hunters
         </h2>
       </div>
