@@ -1,7 +1,7 @@
 function TextZuckuss() {
   return (
     <div className="w-full">
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         Zuckuss (pronounced /Zŭk&apos;-ŭs/) was a successful Gand bounty hunter
         who was active during the height of the New Order. Referred to as
         &quot;The Uncanny One&quot; by his fellow hunters, Zuckuss was renowned
@@ -13,7 +13,7 @@ function TextZuckuss() {
         Hunters&apos; Guild, the Hutt Cartel, TaggeCo, and even the Rebellion
         for a time.
       </p>
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         Shortly afterward, Zuckuss decided to join the Alliance, partly in
         gratitude for the necessary treatment he had received on board the
         medical frigate. He and 4-LOM worked as covert operatives for a time,
@@ -28,7 +28,7 @@ function TextZuckuss() {
         eventually began to hunt primarily for New Republic targets near the end
         of his career.
       </p>
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         Although incredibly successful, Zuckuss was not without his flaws. He
         was diagnosed with schizophrenia, and an advanced case of multiple
         personality disorder, which caused him to speak in two different

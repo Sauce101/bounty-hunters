@@ -1,7 +1,7 @@
 function TextIG88() {
   return (
     <div className="w-full">
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         IG-88B, pronounced Eyegee-Eightyeight, also commonly known simply as
         IG-88, or as a Phlutdroid, was a rogue, deadly masculine IG-series
         assassin droid manufactured by Holowan Laboratories who worked as a
@@ -15,7 +15,7 @@ function TextIG88() {
         thwarted by R2-Q5. Decades later, the droid met with mercenary Bazine
         Netal to speak about the location of the Millennium Falcon.
       </p>
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         The IG-88 designated &quot;B&quot; operated as a bounty hunter, with his
         appearances throughout the galaxy serving as cover for their real
         operations on Mechis III. One assignment saw the droid bounty hunter
@@ -25,7 +25,7 @@ function TextIG88() {
         Scepter. During the course of this assignment, IG-88 would cross paths
         with the droids R2-D2 and C-3PO.
       </p>
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         IG-88B was the second of the four IG-88s. It was agreed by all four of
         the units that this one would be the bounty hunter as to distract any
         attention from Mechis III where the droid revolution was being

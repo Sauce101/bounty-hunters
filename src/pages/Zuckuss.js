@@ -11,7 +11,7 @@ function Zuckuss() {
     <>
       {/* Landscape */}
       <div className="portrait:hidden container mx-auto flex flex-wrap justify-center">
-        <h2 className="text-5xl text-center font-normal leading-normal mt-0 mb-2 text-slate-800 w-screen">
+        <h2 className="text-5xl text-center font-normal leading-normal mt-0 mb-2 text-slate-800">
           Zuckuss
         </h2>
         <div className="flex space-x-8 mb-4">
@@ -20,7 +20,7 @@ function Zuckuss() {
               <img
                 src={pic}
                 alt="..."
-                className="shadow-lg rounded h-40 md:h-80 align-middle border-none object-cover"
+                className="shadow-lg rounded max-w-full h-auto border-none object-cover"
               />
             </div>
           ))}
@@ -38,7 +38,7 @@ function Zuckuss() {
           <img
             src={zuck3}
             alt="..."
-            className="shadow-lg rounded h-full align-middle border-none mx-auto"
+            className="shadow-lg rounded h-full border-none mx-auto"
           />
         </div>
         <TextZuckuss />
@@ -52,7 +52,7 @@ function Zuckuss() {
         <img
           src={mistHunter}
           alt="..."
-          className="shadow-lg rounded h-auto align-middle border-none mb-8"
+          className="shadow-lg rounded h-auto border-none mb-8"
         />
       </div>
     </>

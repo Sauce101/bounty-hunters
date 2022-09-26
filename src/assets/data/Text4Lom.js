@@ -1,7 +1,7 @@
 function Text4Lom() {
   return (
     <div className="w-full">
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         4-LOM was an ambitious protocol droid who overwrote his own programming
         in order to embark on a life of crime. A LOM-series droid, 4-LOM&apos;s
         first assignment was aboard a luxury liner named the Kuari Princess,
@@ -13,7 +13,7 @@ function Text4Lom() {
         broker, and, after Jabba Desilijic Tiure altered his programming
         further, a highly-successful bounty hunter.
       </p>
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         The LOM-series protocol droid, also known as a LOM-series droid was a
         model of protocol droid manufactured by Industrial Automaton. They were
         designed with insectile features to emulate the species they were
@@ -22,7 +22,7 @@ function Text4Lom() {
         a spectacular failure when Automaton attempted to introduce it, with
         even Arakyd Industries&apos; RA-7 protocol droid selling more.
       </p>
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         The LOM-series had a flaw that allowed the personality software of a
         droid to be corrupted. Many LOM-series droids became enforcers in the
         galaxy&apos;s Outer Rim Territories. 4-LOM was a LOM-series protocol

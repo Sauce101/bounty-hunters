@@ -3,7 +3,6 @@ import HomeNavbar from '../componets/HomeNavbar'
 import Footer from '../componets/Footer'
 import dengar5 from '../assets/images/Dengar/dengar_5.webp'
 import ig3 from '../assets/images/IG-88/ig88-03.png'
-// import ig3 from '../assets/images/IG-88/ssig88_3.webp'
 import boba3 from '../assets/images/BobaFett/bobafett_3.webp'
 import bossk3 from '../assets/images/Bossk/bossk_3.webp'
 import fourLom3 from '../assets/images/4-LOM/4lom_3.webp'
@@ -23,13 +22,15 @@ function Home() {
     <div className="flex flex-col w-full min-h-screen bg-slate-700 pb-12">
       <HomeNavbar />
       {/* Landscape */}
-      <div className="portrait:hidden mx-auto my-auto grid grid-rows-1 grid-cols-6 md:grid-rows-2 md:grid-cols-3 justify-items-center gap-4 px-2 py-2 md:gap-8 md:px-8 md:py-8">
+      <div className="portrait:hidden mx-auto my-auto grid grid-rows-1 grid-cols-6 md:grid-rows-2 md:grid-cols-3 xl:grid-rows-1 xl:grid-cols-6 justify-items-center gap-4 px-2 py-2 md:gap-8 md:px-8 md:py-8">
         {PAGES.map((page) => (
           <NavLink to={`${page.hunter}`} key={`${page.hunter}`}>
             <img
               src={`${page.imgSrc}`}
               alt="..."
-              className="rounded shadow-md max-w-full h-auto border-none object-cover mx-auto"
+              // className="rounded shadow-md max-w-full h-auto border-none object-cover mx-auto"
+              // className="shadow-md rounded max-w-full h-auto md:h-80 md:w-80 object-cover"
+              className="rounded w-60 h-60 object-scale-down"
             />
           </NavLink>
         ))}
@@ -41,7 +42,7 @@ function Home() {
             <img
               src={`${page.imgSrc}`}
               alt="..."
-              className="rounded shadow-md max-w-full h-auto border-none object-cover mx-auto"
+              className="rounded shadow-md max-h-80 w-auto border-none mx-auto"
             />
           </NavLink>
         ))}

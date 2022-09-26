@@ -1,7 +1,7 @@
 function TextBoba() {
   return (
     <div className="w-full">
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-850">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         Boba Fett was a human male crime lord and former bounty hunter whose
         career spanned decades, from the fall of the Galactic Republic to the
         end of the rule of the Galactic Empire. Originally code-named Alpha, he
@@ -17,7 +17,7 @@ function TextBoba() {
         of Tatooine for a time, he took over as Daimyo of Mos Espa during the
         era of the New Republic.
       </p>
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-850">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         Boba was created on the extragalactic planet of Kamino as a result of an
         arrangement between the Sith Lord Darth Tyranus and Jango Fett, a
         Mandalorian foundling who served as the template of the Grand Army of
@@ -32,7 +32,7 @@ function TextBoba() {
         Ventress, while also notably apprenticing himself to his father&apos;s
         infamous brief protégée, Cad Bane.
       </p>
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-850">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         In the aftermath of the Clone Wars, Fett continued to make a name for
         himself while working for the gangster Jabba Desilijic Tiure as well as
         the Sith Lord Darth Vader. During the Galactic Civil War, the bounty
@@ -44,7 +44,7 @@ function TextBoba() {
         Dawn, kicking off a war between bounty hunters for Solo. Ultimately,
         Fett regained Solo and delivered him to the impatient Jabba.
       </p>
-      <p className="text-base font-normal leading-relaxed mb-4 text-slate-850">
+      <p className="text-base font-normal leading-normal mb-4 text-slate-900">
         Fett tried to prevent Solo&apos;s rescue by the Alliance to Restore the
         Republic, only to fall into the Great Pit of Carkoon when the smuggler
         accidentally slammed a pole into the bounty hunter&apos;s jetpack,
