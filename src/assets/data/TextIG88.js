@@ -1,6 +1,6 @@
 function TextIG88() {
   return (
-    <div className="w-full px-4">
+    <div className="w-full">
       <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
         IG-88B, pronounced Eyegee-Eightyeight, also commonly known simply as
         IG-88, or as a Phlutdroid, was a rogue, deadly masculine IG-series

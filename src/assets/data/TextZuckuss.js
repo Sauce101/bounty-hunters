@@ -1,6 +1,6 @@
 function TextZuckuss() {
   return (
-    <div className="w-full px-4">
+    <div className="w-full">
       <p className="text-base font-normal leading-relaxed mb-4 text-slate-900">
         Zuckuss (pronounced /Zŭk&apos;-ŭs/) was a successful Gand bounty hunter
         who was active during the height of the New Order. Referred to as

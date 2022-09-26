@@ -28,13 +28,13 @@ function Bossk() {
         <TextBossk />
       </div>
       {/* Portrait */}
-      <div className="landscape:hidden m-2 container mx-auto flex flex-col">
+      <div className="landscape:hidden m-2 container mx-auto flex flex-col px-4">
         <div className="flex container mx-auto">
           <h2 className="text-5xl font-normal leading-normal mt-0 mb-2 text-slate-800 mx-auto">
             Bossk
           </h2>
         </div>
-        <div className="px-4 py-4">
+        <div className="py-4">
           <img
             src={bossk3}
             alt="..."

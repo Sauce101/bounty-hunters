@@ -1,7 +1,10 @@
 import TextIG88 from '../assets/data/TextIG88'
-import ig9 from '../assets/images/IG-88/ssig88_9.webp'
-import ig3 from '../assets/images/IG-88/ssig88_3.webp'
-import ig5 from '../assets/images/IG-88/ssig88_5.webp'
+import ig9 from '../assets/images/IG-88/ig88-01.png'
+// import ig9 from '../assets/images/IG-88/ssig88_9.webp'
+import ig3 from '../assets/images/IG-88/ig88-03.png'
+// import ig3 from '../assets/images/IG-88/ssig88_3.webp'
+import ig5 from '../assets/images/IG-88/ig88-05.webp'
+// import ig5 from '../assets/images/IG-88/ssig88_5.webp'
 import ig2000 from '../assets/images/Starships/IG2000_schem.webp'
 
 function IG88() {
@@ -20,6 +23,7 @@ function IG88() {
               <img
                 src={pic}
                 alt="..."
+                // className="shadow-lg rounded max-w-full h-auto align-middle border-none object-cover"
                 className="shadow-lg rounded h-40 md:h-80 align-middle border-none object-cover"
               />
             </div>
@@ -28,13 +32,13 @@ function IG88() {
         <TextIG88 />
       </div>
       {/* Portrait */}
-      <div className="landscape:hidden m-2 container mx-auto">
+      <div className="landscape:hidden m-2 container mx-auto flex flex-col px-4">
         <div className="flex container mx-auto">
           <h2 className="text-5xl font-normal leading-normal mt-0 mb-2 text-slate-800 mx-auto">
             IG-88
           </h2>
         </div>
-        <div className="px-4 py-4">
+        <div className="py-4">
           <img
             src={ig3}
             alt="..."
