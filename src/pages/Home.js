@@ -36,13 +36,13 @@ function Home() {
         ))}
       </div>
       {/* Portrait */}
-      <div className="landscape:hidden grid grid-rows-3 grid-cols-2 justify-items-center gap-6 px-6 sm:py-2 my-auto mx-auto">
+      <div className="landscape:hidden grid grid-rows-3 grid-cols-2 justify-items-center gap-6 px-6 sm:py-6 my-auto mx-auto">
         {PAGES.map((page) => (
           <NavLink to={`${page.hunter}`} key={`${page.hunter}`}>
             <img
               src={`${page.imgSrc}`}
               alt="..."
-              className="rounded shadow-md max-h-80 w-auto border-none mx-auto"
+              className="rounded shadow-md max-w-full h-auto border-none mx-auto"
             />
           </NavLink>
         ))}
