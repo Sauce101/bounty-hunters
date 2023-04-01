@@ -17,22 +17,24 @@ import Error from './pages/Error'
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <Routes>
-        <Route index path="/" element={<Home />} />
-        <Route element={<Layout />}>
-          <Route path="Dengar" element={<Dengar />} />
-          <Route path="IG88" element={<IG88 />} />
-          <Route path="BobaFett" element={<BobaFett />} />
-          <Route path="Bossk" element={<Bossk />} />
-          <Route path="FourLOM" element={<FourLOM />} />
-          <Route path="Zuckuss" element={<Zuckuss />} />
-          <Route path="landing" element={<Navigate to="/" />} />
-        </Route>
-        <Route path="*" element={<Error />} />
-      </Routes>
-    </Router>
+    <div className="min-h-screen">
+      <Router>
+        <ScrollToTop />
+        <Routes>
+          <Route index path="/" element={<Home />} />
+          <Route element={<Layout />}>
+            <Route path="Dengar" element={<Dengar />} />
+            <Route path="IG88" element={<IG88 />} />
+            <Route path="BobaFett" element={<BobaFett />} />
+            <Route path="Bossk" element={<Bossk />} />
+            <Route path="FourLOM" element={<FourLOM />} />
+            <Route path="Zuckuss" element={<Zuckuss />} />
+            <Route path="landing" element={<Navigate to="/" />} />
+          </Route>
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </Router>
+    </div>
   )
 }
 

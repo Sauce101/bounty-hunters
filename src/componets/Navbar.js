@@ -21,7 +21,7 @@ export default function Navbar() {
     { hunter: 'Zuckuss', name: 'Zuckuss' },
   ]
   return (
-    <nav className="relative px-2 py-3 bg-slate-800 sticky top-0">
+    <nav className="px-2 py-3 bg-slate-800 sticky top-0">
       <div className="px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between md:w-auto lg:static md:block lg:justify-start">
           <NavLink

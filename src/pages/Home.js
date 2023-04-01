@@ -29,8 +29,6 @@ function Home() {
               src={`${page.imgSrc}`}
               alt="..."
               className="rounded shadow-md max-w-full h-auto border-none object-cover mx-auto"
-              // className="shadow-md rounded max-w-full h-auto md:h-80 md:w-80 object-cover"
-              // className="rounded w-60 h-60 object-scale-down"
             />
           </NavLink>
         ))}

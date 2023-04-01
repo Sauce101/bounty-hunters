@@ -31,7 +31,7 @@ export default function HomeNavbar() {
           </NavLink>
         ))}
       </div>
-      <div className="portrait:hidden hidden lg:inline-flex container mx-auto flex flex-row justify-center">
+      <div className="portrait:hidden lg:inline-flex container mx-auto flex flex-row justify-center">
         <h2 className="text-3xl font-bold leading-relaxed py-2 whitespace-nowrap uppercase text-white">
           Bounty Hunters
         </h2>
