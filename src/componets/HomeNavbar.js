@@ -17,7 +17,7 @@ export default function HomeNavbar() {
     { hunter: 'Zuckuss', name: 'Zuckuss' },
   ]
   return (
-    <nav className="flex flex-col px-2 py-3 bg-slate-800 sticky top-0 z-10">
+    <nav className="flex flex-col px-2 py-3 bg-slate-800 top-0 sticky z-10">
       {/* Landscape */}
       <div className="portrait:hidden lg:hidden flex flex-row list-none justify-around">
         {PAGES.map((page) => (
