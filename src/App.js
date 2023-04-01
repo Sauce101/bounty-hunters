@@ -4,7 +4,7 @@ import {
   Route,
   Navigate,
 } from 'react-router-dom'
-// import ScrollToTop from './componets/ScrollToTop'
+import ScrollToTop from './componets/ScrollToTop'
 import Home from './pages/Home'
 import Layout from './componets/Layout'
 import Dengar from './pages/Dengar'
@@ -18,7 +18,7 @@ import Error from './pages/Error'
 function App() {
   return (
     <Router>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route element={<Layout />}>
