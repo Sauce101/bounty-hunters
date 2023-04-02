@@ -10,6 +10,8 @@ module.exports = {
       lg: '976px',
       xl: '1200px',
       // xl: '1440px',
+      widescreen: { raw: '(min-aspect-ratio: 16/9)' },
+      tallscreen: { raw: '(min-aspect-ratio: 13/20)' },
     },
     extend: {
       colors: {
