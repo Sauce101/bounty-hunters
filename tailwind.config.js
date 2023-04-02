@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class',
   theme: {
     screens: {
       // xs: '360px',
@@ -11,7 +12,12 @@ module.exports = {
       xl: '1200px',
       // xl: '1440px',
       widescreen: { raw: '(min-aspect-ratio: 16/9)' },
-      tallscreen: { raw: '(min-aspect-ratio: 13/20)' },
+      iPadW: { raw: '(aspect-ratio: 4/3)' },
+      iPadH: { raw: '(aspect-ratio: 3/4)' },
+      surfaceProW: { raw: '(aspect-ratio: 3/2)' },
+      surfaceProH: { raw: '(aspect-ratio: 2/3)' },
+      galaxyW: { raw: '(aspect-ratio: 16/10)' },
+      galaxyH: { raw: '(aspect-ratio: 10/16)' },
     },
     extend: {
       colors: {
