@@ -11,13 +11,26 @@ module.exports = {
       lg: '976px',
       xl: '1200px',
       // xl: '1440px',
-      widescreen: { raw: '(min-aspect-ratio: 16/9)' },
-      iPadW: { raw: '(aspect-ratio: 4/3)' },
-      iPadH: { raw: '(aspect-ratio: 3/4)' },
-      surfaceProW: { raw: '(aspect-ratio: 3/2)' },
-      surfaceProH: { raw: '(aspect-ratio: 2/3)' },
-      galaxyW: { raw: '(aspect-ratio: 16/10)' },
-      galaxyH: { raw: '(aspect-ratio: 10/16)' },
+      tabletWide: {
+        raw: [
+          '(aspect-ratio: 3/2)',
+          '(aspect-ratio: 4/3)',
+          '(aspect-ratio: 16/10)',
+          '(aspect-ratio: 1138/712)',
+          '(aspect-ratio: 1180/820)',
+          '(aspect-ratio: 1366/1024)',
+        ],
+      },
+      tabletTall: {
+        raw: [
+          '(aspect-ratio: 2/3)',
+          '(aspect-ratio: 3/4)',
+          '(aspect-ratio: 10/16)',
+          '(aspect-ratio: 712/1138)',
+          '(aspect-ratio: 820/1180)',
+          '(aspect-ratio: 1024/1366)',
+        ],
+      },
     },
     extend: {
       colors: {
