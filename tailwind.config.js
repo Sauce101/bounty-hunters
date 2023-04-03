@@ -19,6 +19,7 @@ module.exports = {
           '(aspect-ratio: 1138/712)',
           '(aspect-ratio: 1180/820)',
           '(aspect-ratio: 1366/1024)',
+          '(aspect-ratio: 2560/1600)',
         ],
       },
       tabletTall: {
@@ -29,6 +30,7 @@ module.exports = {
           '(aspect-ratio: 712/1138)',
           '(aspect-ratio: 820/1180)',
           '(aspect-ratio: 1024/1366)',
+          '(aspect-ratio: 1600/2560)',
         ],
       },
     },
