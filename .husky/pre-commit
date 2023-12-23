@@ -9,5 +9,5 @@
 # npm test
 npx lint-staged
 
-# GitHub Desktop Error fix
-git commit -m "message" --no-verify
+# GitHub Desktop Error fix - use the following line to fix
+# git commit -m "message" --no-verify
