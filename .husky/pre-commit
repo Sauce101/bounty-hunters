@@ -8,3 +8,6 @@
 
 # npm test
 npx lint-staged
+
+# GitHub Desktop Error fix
+git commit -m "message" --no-verify

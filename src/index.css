@@ -20,6 +20,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  -webkit-tap-highlight-color: transparent !important;
+}
+
 /* html {
   scroll-behavior: smooth;
 } */
